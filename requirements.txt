@@ -1,6 +1,8 @@
 # local package
 -e .
-
+dvc
+dvc[gdrive]
+sklearn
 # external requirements
 click
 Sphinx

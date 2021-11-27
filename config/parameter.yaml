@@ -1,0 +1,10 @@
+base:
+    project : House_Price_Prediction
+    random_state = 43
+
+data source = https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+
+split data=
+train = train.csv
+test =  test.csv
+test_size = 0.2
