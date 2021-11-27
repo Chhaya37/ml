@@ -5,7 +5,7 @@ import pandas as pd # data processing
 
 
 import os
-print(os.listdir("../input"))
+print(os.listdir("../src"))
 
 # for data visualizations
 import matplotlib.pyplot as plt
@@ -14,8 +14,8 @@ import seaborn as sns
 
 # reading the dataset
 
-train = pd.read_csv('../input/train.csv')
-test = pd.read_csv('../input/test.csv')
+train = pd.read_csv('../src/train.csv')
+test = pd.read_csv('../src/test.csv')
 
 # checking the shapes of the train and test datasets
 print("Shape of train: ", train.shape)
