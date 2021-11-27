@@ -6,8 +6,6 @@ sklearn
 pandas
 numpy
 lightgbm
-xgboost
-tox
 # external requirements
 click
 Sphinx
